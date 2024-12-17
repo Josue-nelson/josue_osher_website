@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tags
+    -->
+
+
+    <title>Site web OSher Mindset</title>
+    <meta name="title" content="Osher Mindset site">
+    <meta name="description" content="C'est un site qui presente la start up osher mindset et ses services">
+    
+    <!-- 
+    - favicons
+    -->
+    <link rel="shortcut icon" href="assets/images/logo-bg.png" type="image/x-icon">
+
+    <!--
+       - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+     <!--
+      - custom css link
+    -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="stylesheet" href="./assets/css/style2.css">
+
+
+    <!--
+      - preload images
+    -->
+      <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+      <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+      <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+
+</head>
+
+
+<body id="top">
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+        <a href="#" class="logo">
+            <img src="assets/images/logo.svg" width="119" height="37">
+        </a>
+
+        <nav class="navbar " data-navbar>
+            <div class="navbar-top">
+                <a href="#" class="logo">
+                    <img src="assets/images/logo.svg" width="119" height="37">
+                </a>
+
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+            </div>
+
+            <ul class="navbar-list">
+                <li>
+                    <a href="#home" class="navbar-link hover-1" data-nav-toggler>Accueil</a>
+                </li>
+                <li>
+                    <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Galerie</a>
+                </li>
+                <li>
+                    <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Formation</a>
+                </li>
+                <li>
+                    <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Equipes</a>
+                </li>
+                <li>
+                    <a href="#contact" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+                </li>
+                
+            </ul>
+
+            <div class="navbar-bottom">
+                <div class="profile-card">
+                    <img src="assets/images/logo-bg.png" width="48" height="48" alt="Steven" class="profile-banner">
+
+                    <div>
+                        <p class="card-title">Osher Mindset !</p>
+
+                        <p class="card-subtitle">
+                            La gestion des finances s'apprend.
+                        </p>
+                    </div>
+                </div>
+
+                
+
+                <div class="link-list">
+
+                </div>
+            </div>
+
+            <p class="copyright-text">
+                Copyright 2024 © Uivers Automation
+                Developpé par Univers Automation
+            </p>
+        </nav>
+
+        <a href="https://bit.ly/3Zzqkpy" class="btn btn-primary">Contact</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+    </div>
+  </header>
+
+
+ 
+  <main>
+    <article>
+        <!--
+          - #HERO
+          -->
+
+          <section class="hero" id="home" arial-label="home">
+            <div class="container">
+
+                <div class="hero-content">
+
+                    <p class="hero-subtitle">Salut tout le monde!</p>
+
+                    <h1 class="headline headline-1 section-title">
+                       Je suis<span class="span">Franck Noubossi</span>
+                    </h1>
+
+                    <p class="hero-text">
+                        Je suis entrepreneur et coach en gestion financière. J'ai acquis de solides compétences en gestion financière et en investissement,
+                         ce qui me permet aujourd'hui d'aider mon semblable à sortir de la précarité financière et à adopter le bon état d'esprit.
+                        
+                    </p>
+
+                    <div class="input-wrapper">
+
+                        <input type="email" name="email_address"  placeholder = "Laissez moi un mail"
+                        required
+                         class="input-field">
+
+                        <button class="btn btn-primary" onclick="sendEmail()">
+                            <span class="span">Envoyer</span>
+
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="hero-banner">
+
+                    <img src="./assets/images/hero-banner.png" width="327" height="490" alt="Wren Clark" class="w-100">
+
+                    <img src="./assets/images/pattern-7.png" alt="shape" width="27" height="26" class="shape shape-1">
+
+                    <img src="./assets/images/pattern-10.png" alt="shape" width="27" height="26" class="shape shape-2">
+
+                </div>
+
+                <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+                <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+            </div>
+          </section>
+
+
+
+
+
+
+
+          <!---
+            - #TOPICS
+          --->
+
+          <section class="topics" id="topics" aria-labelledby="topic-label">
+            <div class="container">
+
+                <div class="card topic-card">
+
+                    <div class="card-content">
+
+                        <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                            Nos oeuvres 
+                        </h2>
+
+                        <p class="card-text">
+                            Une image vaut parfois milles mots. Voila l'impact que nous avons et ce que nous faisons. 
+                        </p>
+
+                        <div class="btn-group">
+                            <button class="btn-icon" arial-label="previous" data-slider-prev>
+                                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                            </button>
+
+                            <button class="btn-icon" arial-label="next" data-slider-next>
+                                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="slider" data-slider>
+                        <ul class="slider-list" data-slider-container>
+                            
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-1.jpg" width="507" height="618"
+                                        loading="lazy" alt="Sport" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Lieu</span>
+
+                                        <p class="slider-subtitle">Thème </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-2.jpg" width="507" height="618"
+                                        loading="lazy" alt="Travel" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Lieu</span>
+
+                                        <p class="slider-subtitle">Thème</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-3.jpg" width="507" height="618"
+                                        loading="lazy" alt="Design" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Lieu</span>
+
+                                        <p class="slider-subtitle">Thème</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-4.jpg" width="507" height="618"
+                                        loading="lazy" alt="Movie" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Don</span>
+
+                                        <p class="slider-subtitle">Orphelinat</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-5.jpg" width="507" height="618"
+                                        loading="lazy" alt="Lifestyle" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Don</span>
+
+                                        <p class="slider-subtitle">Orphelinat</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-6.jpg" width="507" height="618"
+                                        loading="lazy" alt="Lifestyle" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Lieu</span>
+
+                                        <p class="slider-subtitle">Thème</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-7.jpg" width="507" height="618"
+                                        loading="lazy" alt="Lifestyle" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Lieu</span>
+
+                                        <p class="slider-subtitle">Thème</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-9.jpg" width="507" height="618"
+                                        loading="lazy" alt="Lifestyle" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Lieu</span>
+
+                                        <p class="slider-subtitle">Thème</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-10.jpg" width="507" height="618"
+                                        loading="lazy" alt="Lifestyle" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Lieu</span>
+
+                                        <p class="slider-subtitle">Thème</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-11.jpg" width="507" height="618"
+                                        loading="lazy" alt="Lifestyle" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Lieu</span>
+
+                                        <p class="slider-subtitle">Thème</p>
+                                    </div>
+                                </a>
+                            </li>
+
+
+                            <li class="slider-item">
+                                <a href="#" class="slider-card">
+
+                                    <figure class="slider-banner img-holder" style="--width: 507; --height:618;">
+                                        <img src="./assets/images/img-12.jpg" width="507" height="618"
+                                        loading="lazy" alt="Lifestyle" class="img-cover">
+                                    </figure>
+
+                                    <div class="slider-content">
+                                        <span class="slider-title">Lieu</span>
+
+                                        <p class="slider-subtitle">Thème</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+          </section>
+
+
+
+          <!--
+            - #FEATURED POST
+            -->
+
+           <section class="section feature" aria-label="feature" id="featured">
+            <div class="container">
+
+                <h2 class="headline headline-2 section-title">
+                    <span class="span">Nos formations</span>
+                </h2>
+
+                <p class="section-text">
+                    Ceci represente la selection des plus vendus
+                </p>
+
+
+                <ul class="feature-list">
+
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="./assets/images/img-1.jpg" width="1602" height="903"
+                                 loading="lazy" alt="Self-observation is the first step of inner unfolding"
+                                 class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover-2">#Travel</a>
+
+                                        <a href="#" class="span hover-2">#Lifestyle</a>
+
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                        <span class="span"> 3 mins read</span>
+                                    </div>
+                                </div>
+
+                                
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        COACHING ET CONFERENCE
+                                    </a>
+                                </h3>
+
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <a href="#" class="btn btn-secondary"> Réserver</a>
+                                        
+                                        
+                                    </div>
+
+                                    <a href="#" class="card-btn">Détails</a>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="./assets/images/formation.png" width="1602" height="903"
+                                 loading="lazy" alt="Self-observation is the first step of inner unfolding"
+                                 class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover-2">A partir de </a>
+
+                                        <a href="#" class="span hover-2"> 10. 000 XAF</a>
+
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                        <span class="span">Revolutionnez vos finances</span>
+                                    </div>
+                                </div>
+
+                                
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        VENTE DE FORMATION SUR LA FINANCE
+                                    </a>
+                                </h3>
+
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <a href="#" class="btn btn-secondary"> Acheter</a>
+                                        
+                                        
+                                    </div>
+
+                                    <a href="#" class="card-btn">Détails</a>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <div class="overlay" id="overlay"></div>
+
+                                    <div class="popup" id="popup">
+                                        <span class="close" id="closePopup">&times;</span>
+                                        <h2>Détails</h2>
+                                        <p>Voici les détails que vous cherchez...</p>
+                                    </div>
+
+
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="./assets/images/pack-1.png" width="1602" height="903"
+                                 loading="lazy" alt="Self-observation is the first step of inner unfolding"
+                                 class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover-2">10.000 XAF</a>
+
+                                        <a href="#" class="span hover-2">15 EU</a>
+
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                        <span class="span">3 modules</span>
+                                    </div>
+                                </div>
+
+                                
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        PROGRAMME CROISSANCE FINANCIERE VOL1
+                                    </a>
+                                </h3>
+                                
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <a href="#" class="btn btn-secondary"> Acheter</a>
+                                        
+                                        
+                                    </div>
+
+                                    <a href="#" class="card-btn" id="detailLink">Détails</a>
+                                    
+                                    
+                                    
+                                
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <div class="overlay" id="overlay"></div>
+
+                                    <div class="popup" id="popup">
+                                        <span class="close" id="closePopup">&times;</span>
+                                        <h2>Détails</h2>
+                                        <p>Voici les détails que vous cherchez...</p>
+                                    </div>
+                                    
+
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="./assets/images/pack-2.png" width="1602" height="903"
+                                 loading="lazy" alt="Self-observation is the first step of inner unfolding"
+                                 class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover-2">10.000 XAF</a>
+
+                                        <a href="#" class="span hover-2">15 EU</a>
+
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                        <span class="span">3 modules</span>
+                                    </div>
+                                </div>
+
+                                
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        PROGRAMME CROISSANCE FINANCIERE VOL2
+                                    </a>
+                                </h3>
+                                
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <a href="#" class="btn btn-secondary"> Acheter</a>
+                                        
+                                        
+                                    </div>
+
+                                    <a href="#" class="card-btn">Détails</a>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <div class="overlay" id="overlay"></div>
+
+                                    <div class="popup" id="popup">
+                                        <span class="close" id="closePopup">&times;</span>
+                                        <h2>Détails</h2>
+                                        <p>Voici les détails que vous cherchez...</p>
+                                    </div>
+                                    
+
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="./assets/images/pack-3.png" width="1602" height="903"
+                                 loading="lazy" alt="Self-observation is the first step of inner unfolding"
+                                 class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover-2">30.000 XAF</a>
+
+                                        <a href="#" class="span hover-2">50 EU</a>
+
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                        <span class="span">6 modules</span>
+                                    </div>
+                                </div>
+
+                                
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        PROGRAMME FINANCE OPTIMALE
+                                    </a>
+                                </h3>
+                                
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <a href="#" class="btn btn-secondary"> Acheter</a>
+                                        
+                                        
+                                    </div>
+
+                                    <a href="#" class="card-btn">Détails</a>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <div class="overlay" id="overlay"></div>
+
+                                    <div class="popup" id="popup">
+                                        <span class="close" id="closePopup">&times;</span>
+                                        <h2>Détails</h2>
+                                        <p>Voici les détails que vous cherchez...</p>
+                                    </div>
+
+
+                    <!-- <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="./assets/images/pack-2.jpg" width="1602" height="903"
+                                 loading="lazy" alt="Self-observation is the first step of inner unfolding"
+                                 class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover-2">#Gestion</a>
+
+                                        <a href="#" class="span hover-2">#Finance</a>
+
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                        <span class="span">6 modules</span>
+                                    </div>
+                                </div>
+
+                                
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        PROGRAMME FINANCE OPTIMALE
+                                    </a>
+                                </h3>
+
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <div>
+                                            <p class="card-title">30.000 XAF</p>
+
+                                            <p class="card-subtitle">50 Euro </p>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="card-btn">Plus de details</a>
+
+                                    <a href="#" class="btn btn-secondary"> Acheter</a>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="card feature-card">
+
+                            <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                                <img src="./assets/images/pack-3.jpg" width="1602" height="903"
+                                 loading="lazy" alt="Self-observation is the first step of inner unfolding"
+                                 class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+
+                                <div class="card-wrapper">
+                                    <div class="card-tag">
+                                        <a href="#" class="span hover-2">#Design</a>
+
+                                        <a href="#" class="span hover-2">#Movie</a>
+
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                        <span class="span">6 mins read</span>
+                                    </div>
+                                </div>
+
+                                
+                                <h3 class="headline headline-3">
+                                    <a href="#" class="card-title hover-2">
+                                        Self-observation is the first step of inner unfolding
+                                    </a>
+                                </h3>
+
+                                <div class="card-wrapper">
+
+                                    <div class="profile-card">
+                                        <img src="./assets/images/author-1.png" width="48" height="48"
+                                        loading="lazy" alt="Joseph" class="profile-banner">
+
+                                        <div>
+                                            <p class="card-title">Joseph</p>
+
+                                            <p class="card-subtitle">25 nov 2022</p>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="card-btn">Read more</a>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </li> -->
+
+                </ul>
+
+                <a href="#" class="btn btn-secondary">
+                    <span class="span">Voir Plus</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+
+            </div>
+
+            <img src="./assets/images/shadow-3.svg" width="500" height="1500" 
+            loading="lazy" class="feature-bg">
+          </section>
+
+
+          
+
+
+
+
+          <!--
+            - #TEAM
+            -->
+
+           <section class="team">
+            <div class="container">
+                <h2 class="headline headline-2 section-title" id="tag-label">
+                    <span class="span">Equipe Osher Mindset</span>
+                </h2>
+
+                <p class="section-text">
+                    Qui sommes nous ?!
+                </p>
+
+                <div class="card-img">
+                    <img src="./assets/images/team-1.jpg" class="img-team" alt="image team">
+
+                    <p>
+                        
+                        Chez Osher Mindset, nous croyons fermement que chaque individu a le potentiel de réaliser ses ambitions et de transformer sa vie.
+                        Nous sommes spécialisés dans des domaines clés tels que l'infoprenariat, le coaching, le leadership, le marketing, la finance, la motivation,
+                         le développement personnel, la vente et l'investissement. Nous offrons des solutions personnalisées et des formations adaptées pour aider nos
+                         clients à surmonter les obstacles et à atteindre leurs objectifs. Que vous soyez un entrepreneur en herbe ou un professionnel chevronné, nous sommes là pour
+                         vous guider à chaque étape de votre parcours. Grâce à notre approche innovante et à notre engagement envers l'excellence, nous vous aidons à libérer
+                         votre potentiel et à bâtir un avenir prospère.Prêt à transformer vos idées en actions concrètes ? Contactez-nous dès maintenant et commencez votre
+                         voyage vers le succès nous !
+                        <br> <br>
+                        <a href="https://bit.ly/3Zzqkpy" class="btn btn-primary">Appellez-nous</a>
+
+                    </p>
+                    <!-- <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eligendi maxime repellat, corporis illo velit eius quos odio veniam quidem odit voluptas molestias ad, aperiam libero numquam ab accusamus illum.
+                    </p> -->
+
+                </div>
+
+                
+
+            </div>
+          </section> 
+
+          
+
+
+          <!--
+            - #POPULAR TAGS
+           --->
+
+            <!-- <section class="tags" aria-labelledby="tag-label">
+            <div class="container">
+
+                <h2 class="headline headline-2 section-title" id="tag-label">
+                    <span class="span">Popular Tag</span>
+                </h2>
+
+                <p class="section-text">
+                    Most searched keywords
+                </p>
+
+                <ul class="grid-list">
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag1.png" width="32" height="32" loading="lazy"
+                             alt="Travel">
+
+                             <p class="btn-text">Travel</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag2.png" width="32" height="32" loading="lazy"
+                             alt="Culture">
+
+                             <p class="btn-text">Culture</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag3.png" width="32" height="32" loading="lazy"
+                             alt="Lifestyle">
+
+                             <p class="btn-text">Lifestyle</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag4.png" width="32" height="32" loading="lazy"
+                             alt="Fashion">
+
+                             <p class="btn-text">Fashion</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag5.png" width="32" height="32" loading="lazy"
+                             alt="Food">
+
+                             <p class="btn-text">Food</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag6.png" width="32" height="32" loading="lazy"
+                             alt="Space">
+
+                             <p class="btn-text">Space</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag7.png" width="32" height="32" loading="lazy"
+                             alt="Animal">
+
+                             <p class="btn-text">Animal</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag8.png" width="32" height="32" loading="lazy"
+                             alt="Minimal">
+
+                             <p class="btn-text">Minimal</p>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag9.png" width="32" height="32" loading="lazy"
+                             alt="Interior">
+
+                             <p class="btn-text">Interior</p>
+                        </button>
+                    </li>
+
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag10.png" width="32" height="32" loading="lazy"
+                             alt="Plant">
+
+                             <p class="btn-text">Plant</p>
+                        </button>
+                    </li>
+
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag11.png" width="32" height="32" loading="lazy"
+                             alt="Nature">
+
+                             <p class="btn-text">Nature</p>
+                        </button>
+                    </li>
+
+
+                    <li>
+                        <button class="card tag-btn">
+                            <img src="./assets/images/tag12.png" width="32" height="32" loading="lazy"
+                             alt="Business">
+
+                             <p class="btn-text">Business</p>
+                        </button>
+                    </li>
+
+                </ul>
+
+            </div>
+           </section> -->
+
+
+
+
+           <!---
+            - #RECENT POST 
+            --->
+             <!-- <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+                <div class="container">
+
+                    <div class="post-main">
+
+                        <h2 class="headline headline-2 section-title">
+                            <span class="span">Recent posts</span>
+                        </h2>
+
+
+                        <p class="section-text">
+                            Don't miss the latest trends
+                        </p>
+
+                        <ul class="grid-list">
+
+                            <li>
+                                <div class="recent-post-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                        <img src="./assets/images/recent-post-1.jpg" width="271" height="258" loading="lazy"
+                                        alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                         
+                                        <a href="#" class="card-badge">Working Tips</a>
+                                        <h3 class="headline headline-3 card-title">
+                                            <a href="#" class="link hover-2">Helpful Tips for Working from Home as a 
+                                            Freelancer</a>
+                                        </h3>
+                                        <p class="card-text">
+                                            Gosh jaguar ostrich quail one excited dear hello and bound and
+                                            the and bland moral misheard roadrunner flapped lynx far that and
+                                            jeepers giggled far and far
+                                        </p>
+
+                                        <div class="card-wrapper">
+                                            <div class="card-tag">
+                                                <a href="#" class="span hover-2"># Travel</a>
+
+                                                <a href="#" class="span hover-2"># Lifestyle</a>
+                                            </div>
+
+                                            <div class="wrapper">
+                                                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                                <span class="span">3 mins read</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="recent-post-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                        <img src="./assets/images/recent-post-2.jpg" width="271" height="258"
+                                        loading="lazy"
+                                        alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                         
+                                        <a href="#" class="card-badge">Working Tips</a>
+
+                                        <h3 class="headline headline-3 card-title">
+                                            <a href="#" class="link hover-2">Helpful Tips for Working from Home as a 
+                                            Freelancer</a>
+                                        </h3>
+
+                                        <p class="card-text">
+                                            Gosh jaguar ostrich quail one excited dear hello and bound and
+                                            the and bland moral misheard roadrunner flapped lynx far that and
+                                            jeepers giggled far and far
+                                        </p>
+
+                                        <div class="card-wrapper">
+                                            <div class="card-tag">
+                                                <a href="#" class="span hover-2"># Travel</a>
+
+                                                <a href="#" class="span hover-2"># Lifestyle</a>
+                                            </div>
+
+                                            <div class="wrapper">
+                                                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                                <span class="span">3 mins read</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="recent-post-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                        <img src="./assets/images/recent-post-3.jpg" width="271" height="258"
+                                        loading="lazy"
+                                        alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                         
+                                        <a href="#" class="card-badge">Working Tips</a>
+
+                                        <h3 class="headline headline-3 card-title">
+                                            <a href="#" class="link hover-2">Helpful Tips for Working from Home as a 
+                                            Freelancer</a>
+                                        </h3>
+
+                                        <p class="card-text">
+                                            Gosh jaguar ostrich quail one excited dear hello and bound and
+                                            the and bland moral misheard roadrunner flapped lynx far that and
+                                            jeepers giggled far and far
+                                        </p>
+
+                                        <div class="card-wrapper">
+                                            <div class="card-tag">
+                                                <a href="#" class="span hover-2"># Travel</a>
+
+                                                <a href="#" class="span hover-2"># Lifestyle</a>
+                                            </div>
+
+                                            <div class="wrapper">
+                                                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                                <span class="span">3 mins read</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="recent-post-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                        <img src="./assets/images/recent-post-4.jpg" width="271" height="258"
+                                        loading="lazy"
+                                        alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                         
+                                        <a href="#" class="card-badge">Working Tips</a>
+
+                                        <h3 class="headline headline-3 card-title">
+                                            <a href="#" class="link hover-2">Helpful Tips for Working from Home as a 
+                                            Freelancer</a>
+                                        </h3>
+
+                                        <p class="card-text">
+                                            Gosh jaguar ostrich quail one excited dear hello and bound and
+                                            the and bland moral misheard roadrunner flapped lynx far that and
+                                            jeepers giggled far and far
+                                        </p>
+
+                                        <div class="card-wrapper">
+                                            <div class="card-tag">
+                                                <a href="#" class="span hover-2"># Travel</a>
+
+                                                <a href="#" class="span hover-2"># Lifestyle</a>
+                                            </div>
+
+                                            <div class="wrapper">
+                                                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                                <span class="span">3 mins read</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="recent-post-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                                        <img src="./assets/images/recent-post-5.jpg" width="271" height="258"
+                                        loading="lazy"
+                                        alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                         
+                                        <a href="#" class="card-badge">Working Tips</a>
+
+                                        <h3 class="headline headline-3 card-title">
+                                            <a href="#" class="link hover-2">Helpful Tips for Working from Home as a 
+                                            Freelancer</a>
+                                        </h3>
+
+                                        <p class="card-text">
+                                            Gosh jaguar ostrich quail one excited dear hello and bound and
+                                            the and bland moral misheard roadrunner flapped lynx far that and
+                                            jeepers giggled far and far
+                                        </p>
+
+                                        <div class="card-wrapper">
+                                            <div class="card-tag">
+                                                <a href="#" class="span hover-2"># Travel</a>
+
+                                                <a href="#" class="span hover-2"># Lifestyle</a>
+                                            </div>
+
+                                            <div class="wrapper">
+                                                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                                <span class="span">3 mins read</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <nav aria-label="pagination" class="pagination">
+
+                            <a href="#" class="pagination-btn" aria-label="previous page">
+                                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                            </a>
+
+                            <a href="#" class="pagination-btn">1</a>
+                            <a href="#" class="pagination-btn">2</a>
+                            <a href="#" class="pagination-btn">3</a>
+                            <a href="#" class="pagination-btn" aria-label="more page">...</a>
+
+                            <a href="#" class="pagination-btn" aria-label="next page">
+                                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                            </a>
+
+
+                        </nav>
+
+                    </div>
+
+                    <div class="post-aside grid-list">
+
+                        <div class="card aside-card">
+
+                            <h3 class="headline headline-2 aside-title">
+                                <span class="span">Popular posts</span>
+                            </h3>
+
+                            <ul class="popular-list">
+
+                                <li>
+                                    <div class="popular-card">
+
+                                        <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                            <img src="./assets/images/popular-post-1.jpg" width="64" height="64"
+                                            loading="lazy" alt="Creating is a privilege but it’s also a gift"
+                                             class="img-cover">
+                                        </figure>
+
+                                        <div class="card-content">
+
+                                            <h4 class="headline headline-4 card-title">
+                                                <a href="#" class="link hover-2">Creating is privilege but it's also
+                                                a gift</a>
+                                            </h4>
+
+                                            <div class="wrapper">
+                                                <p class="card-subtitle">15 mins read</p>
+
+                                                <time datetime="2024-09-08" class="publish-data">8 Septembre 2024</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <div class="popular-card">
+
+                                        <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                            <img src="./assets/images/popular-post-2.jpg" width="64" height="64"
+                                            loading="lazy" alt="Being unique is better than being perfect
+                                            "
+                                             class="img-cover">
+                                        </figure>
+
+                                        <div class="card-content">
+
+                                            <h4 class="headline headline-4 card-title">
+                                                <a href="#" class="link hover-2">Being unique is better than being perfect</a>
+                                            </h4>
+
+                                            <div class="wrapper">
+                                                <p class="card-subtitle">15 mins read</p>
+
+                                                <time datetime="2024-09-08" class="publish-data">8 Septembre 2024</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <div class="popular-card">
+
+                                        <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                            <img src="./assets/images/popular-post-3.jpg" width="64" height="64"
+                                            loading="lazy" alt="Every day, in every city and town across the country"
+                                             class="img-cover">
+                                        </figure>
+
+                                        <div class="card-content">
+
+                                            <h4 class="headline headline-4 card-title">
+                                                <a href="#" class="link hover-2">Every day, in every city and town across the country</a>
+                                            </h4>
+
+                                            <div class="wrapper">
+                                                <p class="card-subtitle">15 mins read</p>
+
+                                                <time datetime="2024-09-08" class="publish-data">8 Septembre 2024</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <div class="popular-card">
+
+                                        <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                            <img src="./assets/images/popular-post-4.jpg" width="64" height="64"
+                                            loading="lazy" alt="Your voice, your mind, your story, your vision"
+                                             class="img-cover">
+                                        </figure>
+
+                                        <div class="card-content">
+
+                                            <h4 class="headline headline-4 card-title">
+                                                <a href="#" class="link hover-2">Your voice, your mind, your story, your vision
+                                                </a>
+                                            </h4>
+
+                                            <div class="wrapper">
+                                                <p class="card-subtitle">15 mins read</p>
+
+                                                <time datetime="2024-09-08" class="publish-data">8 Septembre 2024</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <div class="popular-card">
+
+                                        <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                                            <img src="./assets/images/popular-post-4.jpg" width="64" height="64"
+                                            loading="lazy" alt="Being unique is better than being perfect
+                                            "
+                                             class="img-cover">
+                                        </figure>
+
+                                        <div class="card-content">
+
+                                            <h4 class="headline headline-4 card-title">
+                                                <a href="#" class="link hover-2">Being unique is better than being perfect</a>
+                                            </h4>
+
+                                            <div class="wrapper">
+                                                <p class="card-subtitle">15 mins read</p>
+
+                                                <time datetime="2024-09-08" class="publish-data">8 Septembre 2024</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card aside-card">
+
+                            <h3 class="headline headline-2 aside-title">
+                                <span class="span">Last comment</span>
+                            </h3>
+
+                            <ul class="comment-list">
+
+                                <li>
+                                    <div class="comment-card">
+
+                                        <blockquote class="card-text">
+                                            “ Gosh jaguar ostrich quail one excited dear hello 
+                                            and bound and the and bland moral misheard roadrunner “
+                                        </blockquote>
+
+                                        <div class="profile-card">
+                                            <figure class="profile-banner img-holder">
+                                                <img src="./assets/images/author-6.png" width="32" height="32"
+                                                loading="lazy" alt="Jane Cooper" class="img-cover">
+                                            </figure>
+
+                                            <div>
+                                                <p class="card-title">Jane Cooper</p>
+
+                                                <time datetime="2024-08-09" class="card-date">8 Septembre 2024</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="comment-card">
+
+                                        <blockquote class="card-text">
+                                            “ Gosh jaguar ostrich quail one excited dear hello 
+                                            and bound and the and bland moral misheard roadrunner “
+                                        </blockquote>
+
+                                        <div class="profile-card">
+                                            <figure class="profile-banner img-holder">
+                                                <img src="./assets/images/author-7.png" width="32" height="32"
+                                                loading="lazy" alt="Katen Doe" class="img-cover">
+                                            </figure>
+
+                                            <div>
+                                                <p class="card-title">Katen Doe</p>
+
+                                                <time datetime="2024-08-09" class="card-date">8 Septembre 2024</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="comment-card">
+
+                                        <blockquote class="card-text">
+                                            “ Gosh jaguar ostrich quail one excited dear hello 
+                                            and bound and the and bland moral misheard roadrunner “
+                                        </blockquote>
+
+                                        <div class="profile-card">
+                                            <figure class="profile-banner img-holder">
+                                                <img src="./assets/images/author-8.png" width="32" height="32"
+                                                loading="lazy" alt="Barbara Cartland" class="img-cover">
+                                            </figure>
+
+                                            <div>
+                                                <p class="card-title">Barbara Cartland</p>
+
+                                                <time datetime="2024-08-09" class="card-date">8 Septembre 2024</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+
+                        <div class="card aside-card insta-card">
+                            <a href="#" class="logo">
+                             <img src="./assets/images/logo.svg" width="119" height="37"
+                             loading="lazy" alt="Wren logo">
+                            </a>
+
+                            <p class="card-text">
+                                Follow us on instagram
+                            </p>
+
+                            <ul class="insta-list">
+
+                                <li>
+                                    <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                        <img src="./assets/images/insta-post-1.png" width="276" height="277"
+                                        loading="lazy" alt="insta post" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                        <img src="./assets/images/insta-post-2.png" width="276" height="277"
+                                        loading="lazy" alt="insta post" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                        <img src="./assets/images/insta-post-3.png" width="276" height="277"
+                                        loading="lazy" alt="insta post" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                        <img src="./assets/images/insta-post-4.png" width="276" height="277"
+                                        loading="lazy" alt="insta post" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                        <img src="./assets/images/insta-post-5.png" width="276" height="277"
+                                        loading="lazy" alt="insta post" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                        <img src="./assets/images/insta-post-6.png" width="276" height="277"
+                                        loading="lazy" alt="insta post" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                        <img src="./assets/images/insta-post-7.png" width="276" height="277"
+                                        loading="lazy" alt="insta post" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                        <img src="./assets/images/insta-post-8.png" width="276" height="277"
+                                        loading="lazy" alt="insta post" class="img-cover">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                                        <img src="./assets/images/insta-post-9.png" width="276" height="277"
+                                        loading="lazy" alt="insta post" class="img-cover">
+                                    </a>
+                                </li>
+                            </ul>
+                
+                        </div>
+
+                    </div>
+
+                </div>
+            </section> -->
+
+    </article>
+  </main>
+
+
+  <!---
+     - #FOOTER 
+    --->
+  <footer>
+    <div class="container">
+
+        <div class="card footer">
+
+            <div class="section footer-top">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" width="119" height="37"
+                        loading="lazy" alt="Wren logo">
+                    </a>
+
+                    <p class="footer-text">
+                         Avec Osher Mindset, libérez votre potentiel et transformez 
+                         vos idées en actions concrètes grâce à notre approche innovante
+                          en infoprenariat, coaching et développement personnel, vous 
+                          permettant ainsi d'atteindre vos objectifs et de faire de vos
+                           ambitions des succès durables.
+                    </p>
+
+                    <p class="fotter-list-title">Address</p>
+
+                    <address class="footer-text address">
+                        Feu rouge immeuble... <br>
+                        Douala, Cameroun
+                    </address>
+                </div>
+
+                <div class="footer-list">
+
+                    <p class="footer-list-title">Categories</p>
+
+                    <ul>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Infoprenariat</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Prestation de services</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Coaching </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Leadership </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Marketing</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Finance</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Business</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Conference</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Motivation</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Developpement personnel</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">Vente</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link hover-2">investissement</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                
+                <div class="footer-list">
+
+                    <p class="footer-list-title">Newsletter</p>
+
+                    <p class="class-text">
+                        Inscrivez vous à notre newletter pour être le premier à recevoir continuellement
+                        nos contenus inspirant et instructif afin de donner 
+                        une nouvelle tournure a vos finances.
+                    </p>
+
+                    <div class="input-wrapper">
+                        <input type="text" name="name" placeholder="Votre nom"
+                        required class="input-field" autocomplete="off">
+
+                        <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <input type="email" name="email_address" placeholder="Addresse Email"
+                        required class="input-field" autocomplete="off">
+
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <a href="#" class="btn btn-primary">
+                        <span class="span">Insciption</span>
+
+                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p class="copyright">
+                    &copy; Developé par <a href="#" class="copyright-link">Univers Automation</a> 
+                </p>
+
+                <ul class="social-list">
+                    
+                    <li>
+                        <a href="https://web.facebook.com/Oshermindset" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+
+                            <span class="span">Facebook</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/@Oshermindset" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+
+                            <span class="span">Youtube</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/osher_mindset/" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+
+                            <span class="span">Instagram</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+  </footer>
+
+  <!---
+     - #BACK TO TOP 
+    --->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+     <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+   <!--
+      - custom js link
+    -->
+    
+    <script src="./assets/js/script.js"></script>
+    <!--
+      - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
